@@ -17,8 +17,8 @@ def sum_of_products(list1, list2):
 
 
 if __name__ == '__main__':
-   input1 = "1 2 3"
-   input2 = "3 2 1"
+   input1 = input()
+   input2 = input()
    #input1 = input1[0:-1]
    #input2 = input2[0:-1]
    list1 = input1.split(" ")
