@@ -6,17 +6,17 @@ def sum_of_products(list1, list2):
 
     if len(list1) != len(list2):
         return "ERROR"
-    for i in list1:
-        for y in list2:
-            newNum = int(i) * int(y)
-            finalList.append(newNum)
-
+    for i in range(0, len(list1)):
+        newNum = int(list1[i]) * int(list2[i])
+        print(newNum)
+        finalList.append(newNum)
     lastNum = 0
     for x in finalList:
         lastNum += x
     
     return lastNum 
 
+print(sum_of_products([1, 2, 3], [3, 2, 1]))
 if __name__ == '__main__':
    #REMOVE PASS AND YOUR CODE GOES HERE
     pass
