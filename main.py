@@ -15,7 +15,7 @@ def sum_of_products(list1, list2):
             lastNum += x
         print(lastNum)
 
-
+#here
 if __name__ == '__main__':
    input1 = input()
    input2 = input()
